@@ -6,11 +6,6 @@
 // 18 20
 // 15 18
 
-// int[,] matrix1 = {{6,4},
-//                   {2,3}};
-// int[,] matrix2 = {{7,9},
-//                   {8,5}};
-
 
 Console.Write("Введите количество строк 1 массива: ");
 int rowsA = int.Parse(Console.ReadLine());
@@ -75,23 +70,3 @@ int[,] array = new int[matrix1.GetLength(0), matrix2.GetLength(1)];
       }
       return array;
 }
-    // int [,] array = new int [2,2];
-    // for (int i = 0; i < array.GetLength(0); i++)
-    // {
-    //     for (int j = 0; j < array.GetLength(1); j++)
-    //     {
-    //         array [0,0] = (matrix1[0,0] * matrix2[0,0]) + (matrix1[0,1] * matrix2[1,0]);
-    //         array [0,1] = (matrix1[0,0] * matrix2[0,1]) + (matrix1[0,1] * matrix2[1,1]);
-    //         array [1,0] = (matrix1[1,0] * matrix2[0,0]) + (matrix1[1,1] * matrix2[1,0]);
-    //         array [1,1] = (matrix1[1,0] * matrix2[0,1]) + (matrix1[1,1] * matrix2[1,1]); 
-    //     }
-    // }
-        
-
-
-
-// int i = Product(array, matrix1, matrix2);
-// int j = Product(array, matrix1, matrix2);
-//Product(matrix1, matrix2);
-//int[,] array = Product(matrix1, matrix2);
-//Console.WriteLine(Product(matrix1, matrix2));
